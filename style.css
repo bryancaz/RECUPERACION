@@ -1,0 +1,20 @@
+found{
+    
+    left: 1000px;
+    position: absolute;
+}
+.button{
+    background-image: linear-gradient(to right, #1f1316 0%, #3e3d7a  51%, #e55dbc  100%);
+}
+.list{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    left: 225px;
+    top: 650px;
+    position: absolute;
+}
+.main{
+    position: relative;
+    left: 225px;
+    top:  225px;
+}
