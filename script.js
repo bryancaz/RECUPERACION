@@ -1,10 +1,13 @@
-//replace
-//El tipo de array en JavaScript nos proporciona el método splice() que nos ayuda a reemplazar los elementos de un array existente eliminando e insertando nuevos elementos en el índice requerido/deseado.
+//hoisting
+//Las declaraciones de funciones antes de ejecutar cualquier otro segmento de código es que permite utilizar una función antes de declararla en el código.
+function fullname(fullName) {
+    console.log("Hello " + fullName);
+}
 
-const texto = 'Habia una vez un perro que solia jugar mucho';
+(function() {
+    nombre("Bryan Calzada");
 
-console.log(texto.replace('perro', 'caballo'));
-
-
-const animal = /perro/i;
-console.log(texto.replace(animal, 'rocky'));
+    function nombre(fullName) {
+        console.log("Hola " + fullName + ", Maestro, se me fue la luz todo el fin de semana se que vera esto y le queriacomentar que por eso hasta ahorita pude subir mis array");
+    }
+})();
