@@ -1,14 +1,9 @@
-//reduce
-//El método reduce ejecuta una función de devolución de llamada "reductor" suministrada por el usuario en cada elemento de la matriz, en orden, pasando el valor de retorno del cálculo en el elemento precedente.
+//FILTER
+//El método filter() crea un nuevo array con todos los elementos que cumplan la condición implementada por la función dada.
 
-const array1 = [1, 2, 3, 4];
 
-// 0 + 1 + 2 + 3 + 4
-const valorinicial = 0;
-const sumWithInitial = array1.reduce(
-  (previousValue, currentValue) => previousValue + currentValue,
-  valorinicial
-);
+const cervezas = ['tecate', 'corona', 'tecate roja', 'heineken', 'corona negra', 'tecate azul', 'indio', 'carta blanca'];
 
-console.log(sumWithInitial);
-// total == 10
+const result = cervezas.filter(cervezas => cervezas.length > 8);
+
+console.log(result);
