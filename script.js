@@ -1,9 +1,8 @@
-//FILTER
-//El método filter() crea un nuevo array con todos los elementos que cumplan la condición implementada por la función dada.
+//findIndex
+//El método findIndex() devuelve el índice del primer elemento de un array que cumpla con la función de prueba proporcionada. En caso contrario devuelve -1.
 
+const arrayone = [10, 120, 10, 15, 15];
 
-const cervezas = ['tecate', 'corona', 'tecate roja', 'heineken', 'corona negra', 'tecate azul', 'indio', 'carta blanca'];
+const numerolargo = (element) => element > 15;
 
-const result = cervezas.filter(cervezas => cervezas.length > 8);
-
-console.log(result);
+console.log(array1.findIndex(numerolargo));
