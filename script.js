@@ -1,25 +1,15 @@
-//MAP
-// El método map() crea un nuevo array con los resultados de la llamada a la función indicada aplicados a cada uno de sus elementos.
-//Caso de uso: Necesitamos que filtre solo almuerzos.postre
-var almuerzos = [
-    {pricipal:'arepa', postre: 'helado'},
-    {pricipal:'tacos', postre: 'torta de queso'},
-    {pricipal:'pizza', postre: 'galletas'},
-    {pricipal:'sushi', postre: 'pastel'},
+//find
+//El método find() devuelve el valor del primer elemento del array que cumple la función de prueba proporcionada.
+
+
+const fruteria = [
+    { nombre: 'platano', stock: 12 },
+    { nombre: 'pepino', stock: 19 },
+    { nombre: 'sandia', stock: 20 },
+    { nombre: 'jicama', stock: 9 }
 ];
-//var platosPrincipales
 
-//for (var i= 0; i < almuerzos.lenght; i++){
-// platosPrincipales.psuh(almuerzos[i].principal);
-//}
+const totalproducto = fruteria.find(fruta => fruta.nombre === 'jicama');
 
-var platosPrincipales = almuerzos.map(function(almuerzos){
-    return almuerzos.postre
-})
-
-console.log(almuerzos);
-console.log(platosPrincipales);
-
-////////////////////////////////////////////////////
-
-
+console.log(resultado); 
+var total = [0, 1, 2, 3].reduce(function(a, b) { return a + b; });
